@@ -69,3 +69,18 @@ body {
 .link2:hover {
     opacity: 0.50;
 }
+
+.text3{
+    position: fixed;
+    top: auto;
+    left: auto;
+    bottom: 0%;
+    right: 0%;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    opacity: 0.5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
