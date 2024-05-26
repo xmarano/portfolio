@@ -31,9 +31,9 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
     padding: 24px;
-    max-width: 600px;
+    max-width: 800px;
     width: 100%;
 }
 
