@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	background-color: hsla(180, 1%, 97%, 1);
+	background-image: radial-gradient(at 81% 65%, hsla(218, 98%, 94%, 1) 0px, transparent 50%),
+                      radial-gradient(at 95% 99%, hsla(39, 95%, 94%, 1) 0px, transparent 50%),
+                      radial-gradient(at 48% 26%, hsla(271, 77%, 94%, 1) 0px, transparent 50%),
+                      radial-gradient(at 75% 26%, hsla(197, 87%, 94%, 1) 0px, transparent 50%);
+	background-size: 500% 500%;
+	animation: gradient 9s ease infinite;
+}
+
+#projects {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.project {
+    position: relative;
+    min-height: 60px;
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 16px;
+    gap: 16px;
+    background-color: #FCFCFC;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px;
+    transition: box-shadow 0.3s;
+}
+
+.project:hover {
+    box-shadow: 8px 8px 32px #d6d6d6;
+}
+
+.project-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    user-select: none;
+}
+
+.project-name {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.project-name h3 {
+    margin: 0;
+    font-size: 1.25em;
+}
+
+.project-name a {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s;
+    user-select: none;
+}
+
+.project-name a:hover {
+    opacity: 0.5;
+}
+
+.project-description p {
+    font-size: smaller;
+}
+
+h4 {
+   color : rgb(0, 145, 211);
+}
+
+.project-date{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+    font-size: 12px;
+}
