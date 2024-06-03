@@ -1,0 +1,6 @@
+.right-section {
+    width: 80%;
+    padding: 20px;
+    overflow-y: scroll;
+    height: 100vh;
+}
