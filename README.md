@@ -29,5 +29,5 @@
 
 <br>
 
-# [V.1.2.2](https://github.com/xmarano/portfolio/tree/#)
+# [V.1.2.2](https://github.com/xmarano/portfolio/tree/6c472bed4c4c351dd1d7260d06c883eaba4b27ea)
 * Modified CV
