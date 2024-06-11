@@ -26,3 +26,8 @@
 
 # [V.1.2.1](https://github.com/xmarano/portfolio/tree/efbac24c7f8fd407fa31d0a36094077f65be23d3)
 * Modified architectures of files
+
+<br>
+
+# [V.1.2.2](https://github.com/xmarano/portfolio/tree/#)
+* Modified CV
